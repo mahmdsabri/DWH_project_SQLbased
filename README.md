@@ -1,30 +1,18 @@
-# 🚀 Data Warehouse & Analytics Learning Project
+# 🚀 Data enguneering  Project
 
-Welcome to my **Data Warehouse and Analytics Learning Project**!
+Welcome to my **Data enguneering Learning Project**!
 I’m currently learning how to design and build a complete data warehousing solution — from storing raw data to creating useful reports and insights.
 
 This project is part of my **portfolio**, and it’s helping me practice **industry best practices** in data engineering and analytics.
-
----
-
-## 🏗️ Data Architecture (Medallion Layers)
-
-I’m using the **Medallion Architecture** (Bronze, Silver, Gold) to organize the data:
-
-* **Bronze Layer** → Stores **raw data** as-is from source systems. (Here, I’m loading CSV files into a SQL Server database).
-* **Silver Layer** → Cleans, standardizes, and prepares the data so it’s ready for analysis.
-* **Gold Layer** → Contains **business-ready data** in a **star schema** that’s optimized for reporting and dashboards.
-
----
 
 ## 📖 Project Overview
 
 This project involves:
 
-* **Data Architecture** → Designing a modern warehouse using Bronze, Silver, and Gold layers.
-* **ETL Pipelines** → Extracting, transforming, and loading data from source systems into the warehouse.
+* **Data Architecture** → Designing a modern warehouse using source-->staging----->star layers.
+* **ETL Pipelines** → Extracting, transforming, and loading data from source systems into the warehouse using dbt and snowflake
 * **Data Modeling** → Creating fact and dimension tables for analytics.
-* **Analytics & Reporting** → Writing SQL queries and building dashboards for insights.
+* **Analytics & Reporting** → using power pi to building dashboards for insights.
 
 ---
 
@@ -37,11 +25,5 @@ Through this project, I’m practicing skills that are important for roles such 
 * ETL Developer
 * Data Modeler
 * Data Analyst
-
----
-👉 This repo is not just about showing the final result — it’s about documenting my **learning journey** in data engineering and analytics.
-
- credit: data with baraa(youtube channel)
- github link: https://github.com/DataWithBaraa/sql-data-warehouse-project/tree/main
 
 
